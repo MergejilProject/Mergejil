@@ -3,18 +3,20 @@ import mongoose, {Schema} from "mongoose";
 
 
 const HomeTestimonialsSchema = new mongoose.Schema({
-    
+    rate:{
+        type:Number,
+    },
     description:{
         type:String,
     },
     profilePicture:{
-        type:String
+        type:String,
     },
     name:{
-        type:String
+        type:String,
     },
     profession:{
-        type:String
+        type:String,
     }
 })
 
