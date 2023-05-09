@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/navbar";
 import Instructor from "./pages/InstracturPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import CoursePage from "./pages/CoursePage";
 
 // import Section from "./components/section";
@@ -13,9 +14,16 @@ import Section from "./components/section";
 import RecentPost from "./components/recentPost";
 import Testimonial from "./components/testimonial";
 
+import InformationSidebar from "./components/InformationSidebar";
+import ContactPage from "./pages/ContactPage";
+import PageHeadersNavbar from "./components/PageHeadersNavbar";
+import HomeInformation from "./components/homeInformation";
+
+
 function App() {
   return (
     <>
+
       {/* <RecentPost /> */}
       {/* <div style={{ backgroundColor: "gray", width: "100%", height: "100vh" }}>
 
@@ -42,6 +50,7 @@ function App() {
       {/* <Section /> */}
       {/* <Testimonial /> */}
       {/* <Section /> */}
+
     </>
   );
 }
