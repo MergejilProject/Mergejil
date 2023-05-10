@@ -19,11 +19,10 @@ import ContactPage from "./pages/ContactPage";
 import PageHeadersNavbar from "./components/PageHeadersNavbar";
 import HomeInformation from "./components/homeInformation";
 
-
+import MergjeilHeader from "./components/mergejilHeader";
 function App() {
   return (
     <>
-
       {/* <RecentPost /> */}
       {/* <div style={{ backgroundColor: "gray", width: "100%", height: "100vh" }}>
 
@@ -37,7 +36,7 @@ function App() {
       {/* </div> */}
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Navbar />}></Route>
+          <Route path="/" element={<MergjeilHeader />}></Route>
           <Route path="/Instructor" element={<Instructor />}></Route>
           <Route path="/SignUp" element={<SignUp />}></Route>
           <Route path="/Course" element={<CoursePage />}></Route>
@@ -50,7 +49,6 @@ function App() {
       {/* <Section /> */}
       {/* <Testimonial /> */}
       {/* <Section /> */}
-
     </>
   );
 }
