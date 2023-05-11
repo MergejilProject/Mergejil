@@ -77,7 +77,8 @@ function App() {
               <Card sx={{ width: 380 }}>
                 <CardMedia
                   sx={{ height: 250, position: "relative" }}
-                  image={el.image}>
+                  image={el.image}
+                >
                   <div className="price"> {el.job}</div>
                 </CardMedia>
                 <CardContent>
@@ -88,10 +89,12 @@ function App() {
                       gap: "8px",
                       marginTop: "12px",
                       flexDirection: "column",
-                    }}>
+                    }}
+                  >
                     <Typography
                       variant="body2"
-                      style={{ display: "flex", color: "gray" }}>
+                      style={{ display: "flex", color: "gray" }}
+                    >
                       ADVISOR:
                       <Typography variant="body2" color="primary">
                         {el.name}
@@ -99,7 +102,8 @@ function App() {
                     </Typography>
                     <Typography
                       variant="body1"
-                      style={{ display: "flex", color: "gray" }}>
+                      style={{ display: "flex", color: "gray" }}
+                    >
                       Price:
                       <Typography variant="body1" color="primary">
                         {el.price}
