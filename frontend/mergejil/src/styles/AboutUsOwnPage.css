@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.AUOPMHText{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+}
+.AUOPMHNameText{
+font-size: 50px;
+color: yellow;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.AUOPMHRoleText{
+    font-size: 50px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.AboutUsOwnPageContainer{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+   background-color: rgb(17, 17, 17);
+    
+}
+.ownPageProfileContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 730px;
+    left: 1px;
+    background: linear-gradient(
+        to right,
+        rgb(17, 17, 17) 0%,
+        rgb(17, 17, 17) 100%,
+        rgb(199, 179, 5) 50%,
+        rgb(199, 179, 5) 100%
+        
+    );
+}
+.ownPageProfile{
+    height: 800px;
+    width: 680px;
+    border: 1px solid white;
+    border-radius: 10px;
+background-image: url("https://cdn.myanimelist.net/images/characters/6/496453.jpg");
+background-size: 100%;
+}
+
+.AboutUsOwnPageMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    margin-left: 80px;
+    margin-right: 30px;
+    
+}
+.AboutUsOwnPageMain{
+    height: 700px;
+    width: 1000px;
+    background-color: aqua;
+}
+.AboutUsOwnPageMainHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 200px;
+    width: 550px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+.AUOPMHNameTextContainer{
+    height: 180px;
+    width: 100%;
+    background-color: black;
+    padding-left: 25px;
+}
+.AUOPMHRoleTextContainer{
+    height: 180px;
+    width: 100%;
+    background-color: grey;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.AUOPMdescriptionContainer{
+    padding-left:25px ;
+    margin-bottom:20px ;
+    background-color: green;
+    width: 900px;
+}
