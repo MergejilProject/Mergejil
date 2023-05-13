@@ -5,10 +5,10 @@ import "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
 function App() {
-  const { change, setChange } = useState(true);
+  const [isMale, setIsMale] = useState(false);
 
-  const handleClick = () => {
-    setChange(!change);
+  const handleClick = (type) => {
+    setIsMale(!isMale);
   };
 
   return (
@@ -44,10 +44,20 @@ function App() {
                 <div className="text">Gender</div>
                 <div className="gender">
                   <div className="genderTwo">
-                    <TbGenderMale className="icon" /> Male
+                    <TbGenderMale
+                      className="icon"
+                      onClick={() => handleClick("male")}
+                      style={{ backgroundColor: !isMale ? "blue" : "black" }}
+                    />{" "}
+                    Male
                   </div>
                   <div className="genderTwo">
-                    <TbGenderFemale className="icon" /> Female
+                    <TbGenderFemale
+                      className="icon"
+                      onClick={() => handleClick("female")}
+                      style={{ backgroundColor: isMale ? "blue" : "black" }}
+                    />{" "}
+                    Female
                   </div>
                 </div>
               </div>
@@ -61,7 +71,11 @@ function App() {
               </div>
               <div className="inputContainer">
                 <div className="text">Phone</div>
-                <input type="text" className="inputt" placeholder="8811****" />
+                <input
+                  type="number"
+                  className="inputt"
+                  placeholder="8811****"
+                />
               </div>
               <div className="inputContainer">
                 <div className="text">Password</div>
