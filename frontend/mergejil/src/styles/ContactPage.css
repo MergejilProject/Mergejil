@@ -1,5 +1,5 @@
 .contactPageTitle{
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 28px;
 }
@@ -18,7 +18,12 @@
     font-weight: bold;
     color: white;
 }
-
+.CSOLBlueText{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: #4986FC;
+}
 .contactPageContainer{
 display: flex;
 flex-direction: column;
@@ -35,7 +40,7 @@ background-size: 100%;
 .contactPageMain{
     height: 1140px;
     width: 986px;
-    background-color: green;
+    
     margin: 0px -15px;
 }
 .contactSectionOne{
@@ -53,7 +58,7 @@ background-size: 100%;
     width: 370px;
 }
 .contactSectionOneleft{
-background-color: aqua;
+background-color: white;
 height: 538px;
 width: 740px;
 padding: 48px;
@@ -114,5 +119,51 @@ padding: 48px;
     width: 644px;
     height: 42px;
     margin: 0px 0px 24px;
-    background-color: #4986FC;
+    
+}
+.CSOLInputContainer1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 644px;
+    height: 71px;
+    
+    margin: 0px 0px 16px;
+}
+.CSOLInput{
+    padding-left: 8px;
+    border: none;
+    height: 36px;
+    width: 630px;
+}
+.CSOLInputContainer2{
+    display: flex;
+    gap: 10px;
+    width: 644px;
+    height: 70px;
+    background-color: white;
+    margin: 0px 0px 16px;
+}
+.CSOLInput1Conainer{
+    width: 307px;
+    height: 71px;
+    margin: 0px 0px 16px;
+    
+}
+.CSOLTContainer{
+    height: 21px;
+    width: 75px;
+    
+    margin: 0px 0px 8px;
+}
+.CSOLInput1{
+    width: 307px;
+    height: 36px;
+    border: none;
+    font-size: 18px;
+    padding-left:5px ;
+}
+.CSOLInputContainer3{
+    
+    
 }
