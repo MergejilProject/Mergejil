@@ -6,6 +6,7 @@ import InformationSidebar from "./components/InformationSidebar";
 import ContactPage from "./pages/ContactPage";
 import PageHeadersNavbar from "./components/PageHeadersNavbar";
 import HomeInformation from "./components/homeInformation";
+import YeshMergejil from "./pages/YeshMergejil";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/footer" element={<InformationSidebar />}></Route>
           <Route path="/contact" element={<ContactPage />}></Route>
           <Route path="/header" element={<PageHeadersNavbar />}></Route>
+          <Route path="/yeshmergejil" element={<YeshMergejil />}></Route>
         </Routes>
       </BrowserRouter>
     </>
